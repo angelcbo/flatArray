@@ -1,9 +1,4 @@
 function transformToPlainArray(intArray) {
-    if (!Array.isArray(intArray))
-    {
-        return intArray[0];
-    }
-
     let plainArray=[];
 
     while (intArray.length) {
